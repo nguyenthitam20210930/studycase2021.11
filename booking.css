@@ -82,8 +82,6 @@
 .nav-item a {
     color: white;
 }
-
-
 header {
     padding-bottom: 10px;
 }
@@ -127,7 +125,7 @@ img {
     padding-bottom: 0px;
 }
 .breakfast {
-    padding-bottom: 44px;
+    padding-bottom: 19px;
 }
 footer {
     padding-top: 20px;
@@ -135,6 +133,9 @@ footer {
     background-color: #bce4cf;
 }
 .footer-left h3 {
+    padding-left: 22px;
+}
+.footer-left h5 {
     padding-left: 22px;
 }
 .footer-left a {

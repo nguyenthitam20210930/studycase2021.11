@@ -22,9 +22,6 @@ h4 {
     padding-left: 20px;
     font-weight: bold;
 }
-h5 {
-    padding-left: 20px;
-}
 .top-price-title {
     font-size: 3rem;
     padding: 30px;
@@ -49,13 +46,15 @@ table {
     border-spacing: 0;
     text-justify: center;
     margin: 30px 100px;
-    
+}
+.table-price-large {
+    width: 100%;
 }
 .table-price-large-head {
     background-color: #ccc;
 }
 .table-price-small {
-    width: 80%;
+    width: 60%;
 }
 .reservation-button a {
     color: black;
