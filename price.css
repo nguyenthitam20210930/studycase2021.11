@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+    .table-price-large {
+        display: none;   
+    }
+} 
+@media only screen and (min-width: 768px) {
+    .table-price-small {
+        display: none;   
+    }
+} 
+ .top-price {
+    background-image: url(img.hotel/matsumotojo.jpg);
+    height: 100px;
+    background-position: 380rem 70rem;
+    background-size: 150%;
+    position: relative;
+}
+h4 {
+    padding-left: 20px;
+    font-weight: bold;
+}
+h5 {
+    padding-left: 20px;
+}
+.top-price-title {
+    font-size: 3rem;
+    padding: 30px;
+}
+.option button {
+    border: 1px solid #E99413;
+    background-color: #E99413;
+    margin-bottom: 0;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 17px;
+    padding: 6px 50px;
+    margin-bottom: 20px;
+}
+.col-md-5 {
+    margin: 15px 25px;
+}
+
+table {
+    border: solid tomato;  
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-justify: center;
+    margin: 30px 100px;
+    
+}
+.table-price-large-head {
+    background-color: #ccc;
+}
+.table-price-small {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+.reservation-button a {
+    color: black;
+    
+}
+.footer-right-price button {
+    border: 1px solid rgb(11, 153, 11);
+    background-color:rgb(11, 153, 11);
+    font-size: 1.15rem;
+    margin-bottom: 0;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 6px 30px;
+}
+.footer-right-price button a {
+    color: white;
+}

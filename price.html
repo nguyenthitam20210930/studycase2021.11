@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">          
+    <link rel="stylesheet" href="booking.css">   
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="room.html">
+    <link rel="stylesheet" href="reservation.html">
+    <link rel="stylesheet" href="price.css">
+
+</head>
+<body>
+    <header>
+        <div class="top">  
+            <div class="lead justify-content-center"><p>松本駅から一番近いビジネスホテル。出張はもちろん、安曇野・上高地への観光拠点に最適です。松本ICからは車で15分。</p></div> 
+            <div class="container top-items row">
+                <div class="tel col-md-10"><h5>お電話でのご予約・お問い合せはTEL.0263-32-0027</h5></div>
+                <div class="top-item flex-row d-flex col-md-2">
+                    <button class="top-item-english">
+                        <a href="#" class="text-decoration-none"><p>English</p></a>
+                    </button>
+                    <button class="top-item-reservation">
+                        <a href="#" class="text-decoration-none"><p>Reservation</p></a>
+                    </button>  
+                </div>                         
+            </div>
+        </div>
+
+        <div class="container-fluid row">
+            <nav class="navbar navbar-expand-lg col-md-12">
+              <img src="img.hotel/logo-top.png" alt class="logo">  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-right text-light"></i>
+              </button> 
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav flex-row col-s-10">
+                  <div class="nav-item">
+                    <a class="nav-link" href="booking.html">トップページ</a>
+                  </div>
+                  <div class="nav-item">
+                      <a class="nav-link" href="#">客室・施設・朝食</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="#">宿泊料金</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="#">アクセス・駐車場案内</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <div class="top-price">
+            <div class="p-top-price"><p class="top-price-title">宿泊料金</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+           <div class="option">
+            <button class="col-md-5 reservation-button"><a href="">オンライン予約
+                変更・キャンセル</a></button>
+            <button class="col-md-5 tel-button"><a href=""></a>TEL: 3263-32-2255</a></button>
+           </div> 
+           <h4>客室正規料金表</h4>
+           <h5>下記の価格は素泊まりの価格です。朝食は一律600円（税込）でご提供させていただいております。ご予約の際にお申し付けください。</h5>
+           <div class="price-chart">
+               <table class="table-price-large justify-content-center" style="width: 80%";>
+                   <thead class="table-price-large-head">
+                       <tr>
+                           <th class="table-price-head-1" rowspan="3">Room type</th>
+                           <th colspan="2">Room rate</th>
+                           <th class="table-price-head-3" rowspan="3">Number of guest</th>
+                       </tr>
+                       <tr>
+                           <th rowspan="2">Normal-season</th>
+                           <th rowspan="2">Peak-season</th>
+                       </tr>
+                   </thead>
+                   <tbody class="table-price-large-body">
+                    <tr>
+                        <th><a href="/room.#single">Single A</a></th>
+                        <td>6,000円</td>
+                        <td>6,500円</td>
+                        <td>1 person</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#single">Single B</a></th>
+                        <td>6,500円</td>
+                        <td>7,000円</td>
+                        <td>1 person</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#single">Semi-double</a></th>
+                        <td>8,000円</td>
+                        <td>8,500円</td>
+                        <td>2 persons</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#double">Double</a></th>
+                        <td>12,000円</td>
+                        <td>12,500円</td>
+                        <td>2 persons</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#semi-twin">Semi-twin</a></th>
+                        <td>10,000円</td>
+                        <td>11,000円</td>
+                        <td>2 persons</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#twin">Twin A</a></th>
+                        <td>12,000円</td>
+                        <td>13,000円</td>
+                        <td>2 persons</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#twin">Twin B</a></th>
+                        <td>13,000円</td>
+                        <td>14,000円</td>
+                        <td>2 persons</td>
+                    </tr>
+                    <tr>
+                        <th><a href="/room.#triple">Triple</a></th>
+                        <td>16,200円</td>
+                        <td>16,800円</td>
+                        <td>3 persons</td>
+                    </tr>
+                   </tbody>
+               </table>
+               <table class="table-price-small">
+                   <thead class="table-price-small-head">
+                       <tr>
+                           <th colspan="3">Single A</th>
+                       </tr>
+                   </thead>
+                   <tbody class="table-price-small-body">
+                       <tr>
+                           <th>Normal-season</th>
+                           <td>6,000円</td>
+                       </tr>
+                       <tr>
+                           <th>Peak-season</th>
+                           <td>6,500円</td>
+                       </tr>
+                       <tr>
+                           <th>Number of guest</th>
+                           <td>1 person</td>
+                       </tr>
+                   </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Single B</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>6,500円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>7,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>1 person</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Semi-double</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>8,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>8,500円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>2 persons</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Double</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>12,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>12,500円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>2 persons</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Semi-twin</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>10,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>11,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>2 persons</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Twin A</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>12,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>13,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>2 persons</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Twin B</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>13,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>14,000円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>2 persons</td>
+                    </tr>
+                </tbody>
+               </table>
+               <table class="table-price-small">
+                <thead class="table-price-small-head">
+                    <tr>
+                        <th colspan="2">Triple</th>
+                    </tr>
+                </thead>
+                <tbody class="table-price-small-body">
+                    <tr>
+                        <th>Normal-season</th>
+                        <td>16,200円</td>
+                    </tr>
+                    <tr>
+                        <th>Peak-season</th>
+                        <td>16,800円</td>
+                    </tr>
+                    <tr>
+                        <th>Number of guest</th>
+                        <td>3 persons</td>
+                    </tr>
+                </tbody> 
+               </table>
+               <ul>
+                   <li>室料は全て税込です。</li>
+                   <li>BタイプはAタイプよりも少し広めのお部屋です。</li>
+                   <li>幼児添い寝無料(食事・布団なし)※1ベッドにつき添い寝は1名様までとさせていただきます。</li>
+                   <li>学生、スポーツ団体等、ご予算に応じて承ります。お気軽にご相談ください。
+                    朝食時間は通常AM7:00～9:30になります。</li>
+                   <li>全室ユニットバス・洗浄機能付きトイレです。</li>
+               </ul>
+              
+           </div>
+
+           </div>
+            
+
+
+
+
+
+
+
+        </div>
+    </main>
+
+    <footer class="row">
+        <div class="footer-left col-md-6">
+            <h3>ホテル飯田</h3>
+            <h5>チェックイン15:00／チェックアウト11:00 
+                <br>〒390-0811　長野県松本市中央1丁目2-3
+                <br>E-mail：<a href="" class="email text-decoration-none ">hotel@iidaya.co.jp</a> 
+                <br> TEL.0263-32-0027
+                <br>FAX.0263-36-9223
+            </h5>
+        </div>      
+        <div class="footer-right-price col-md-6">
+            <h6>各種クレジットカード・電子マネーをご利用いただけます。</h6>
+            <button><a href="">オンライン予約
+                変更・キャンセル</a></button>
+        </div>
+        <div class="social-links col-12">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <p>Copyright Hotel Iidaya 2021</p>
+        </div>
+    </footer>     
+</body>
+</html>
+</html>

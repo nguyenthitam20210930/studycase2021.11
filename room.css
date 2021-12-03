@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.top-room {
+    background-image: url(img.hotel/room\ number.jpg);
+    height: 100px;
+    background-position: -80rem -60rem;
+    background-size: 301%;
+    position: relative;
+}
+.top-room-title {
+    font-size: 3rem;
+    padding: 30px;
+}
+.room-type {
+    border: 1px solid  #5c3b09;
+    background-color: transparent;
+    font-size: 1.15rem;
+    margin-bottom: 7px;
+    border-radius: 2px;
+    text-align: center; 
+}
+.room-exp-title h2 {
+    border-bottom: #B5B5B6 1px dotted;
+    padding: 10px 0 10px 5px;
+    font-size: 2rem;
+    font-weight: normal;
+}
+h4 {
+    border-bottom: #B5B5B6 1px dotted;
+    padding: 25px 0 10px 5px;
+    font-weight: normal;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">          
+    <link rel="stylesheet" href="booking.css">   
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="room.css">
+    <link rel="stylesheet" href="booking.html">
+    <link rel="stylesheet" href="price.html">
+</head>
+<body>
+    <header>
+        <div class="top">  
+            <div class="lead justify-content-center"><p>松本駅から一番近いビジネスホテル。出張はもちろん、安曇野・上高地への観光拠点に最適です。松本ICからは車で15分。</p></div> 
+            <div class="container top-items row">
+                <div class="tel col-md-10"><h5>お電話でのご予約・お問い合せはTEL.0263-32-0027</h5></div>
+                <div class="top-item flex-row d-flex col-md-2">
+                    <button class="top-item-english">
+                        <a href="#" class="text-decoration-none"><p>English</p></a>
+                    </button>
+                    <button class="top-item-reservation">
+                        <a href="#" class="text-decoration-none"><p>Reservation</p></a>
+                    </button>  
+                </div>                         
+            </div>
+        </div>
+
+        <div class="container-fluid row">
+            <nav class="navbar navbar-expand-lg col-md-12">
+              <img src="img.hotel/logo-top.png" alt class="logo">  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-right text-light"></i>
+              </button> 
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav flex-row col-s-10">
+                  <div class="nav-item">
+                    <a class="nav-link" href="booking.html">トップページ</a>
+                  </div>
+                  <div class="nav-item">
+                      <a class="nav-link" href="room.html">客室・施設・朝食</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="price.html">宿泊料金</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="#">アクセス・駐車場案内</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <div class="top-room">
+            <div class="p-top-room"><p class="top-room-title">各室・施設</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="room-exp">
+                <div class="room-exp-title">
+                    <h2>お部屋のご案内</h2>
+                </div>
+                <div class="room-list row">
+                    <div class="room-list-left col-md-6">
+                        <div class="room-type">
+                            <a class="type-button" href="#single">シングル</a>
+                        </div>
+                        <div class="room-type">
+                            <a class="type-button" href="#double">ダブル</a>
+                        </div>
+                        <div class="room-type">
+                            <a class="type-button" href="#twin">ツイン</a>
+                        </div>
+                    </div>
+                    <div class="room-list-right col-md-6">
+                        <div class="room-type">
+                            <a class="type-button" href="#semi-double">セミダブル</a>
+                        </div>
+                        <div class="room-type">
+                            <a class="type-button" href="#semi-twin">セミツイン</a>
+                        </div>
+                        <div class="room-type">
+                            <a class="type-button" href="#triple">トリプル</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 id="single">シングル・Single room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/single.jpg" alt="">
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>A・Bタイプともにセミダブルサイズのベッドとデスクをご用意。Bタイプの方が少し広めのお部屋です。(別館は有線LAN接続をご利用頂けません。)
+                    </p>
+                    <h5>Aタイプ(本館または別館)</h5>
+                    <ul>
+                        <li>お部屋の広さ：11㎡（6～7畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）</li>
+                        <li>室料：6,000円(税込み)～</li>
+                    </ul>
+                    <ul>
+                        <li>お部屋の広さ：12㎡（7～8畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）</li>
+                        <li>室料：6,500円（税込）～</li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="double">ダブル・Double room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/double.jpg" alt="">
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>大きめのベッドはカップル・ご夫婦はもちろん、出張先でもゆったりと過ごされたいビジネスマンにもオススメ。少し大きめの冷蔵庫も備えていますので、長期のご滞在にも便利です。<br>(各階1室のお部屋です。)
+                    </p>
+                    <ul>
+                        <li>お部屋の広さ：18～20㎡（12～13畳）</li>
+                        <li>ベッドの広さ：ダブル（200㎝×160㎝）</li>
+                        <li>室料1： 7,500円（税込）～/1名1室</li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="twin">ツイン・Twin room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/twin.jpg" alt="">
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>A・Bタイプとも松本駅に面した明るいお部屋です。ツインBタイプは2006年にリニューアルした広めのお部屋です。
+                    </p>
+                    <h5>Aタイプ</h5>
+                    <ul>
+                        <li>お部屋の広さ：18～20㎡（11～13畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）×2</li>
+                        <li>室料1：  7,500円（税込）～/1名1室</li>
+                        <li>室料2：12,000円（税込）～/2名1室</li>
+                    </ul>
+                    <h5>Bタイプ</h5>
+                    <ul>
+                        <li>お部屋の広さ：20～25㎡（13～16畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）×2</li>
+                        <li>室料：13.000円（税込）～/2名1室</li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="semi-double">セミダブル・Semi-double room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/semi-double-image.jpg" alt="">
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>シングルBタイプを2名様でご利用いただくお部屋。<br>カップル・ご夫婦・お子様連れなど、2名様でしたら、このお部屋がいちばんリーズナブルにご宿泊いただけます。
+                    </p>
+                    <ul>
+                        <li>お部屋の広さ：12㎡（7～8畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）</li>
+                        <li>室料：8,000円（税込）～</li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="semi-twin">セミツイン・Semi-twin room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/semi-twin.jpg" alt="">
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>ツインA・Bタイプより小さめのお部屋ですが、宿泊費を抑えたいという方に人気です。<br>(各階1室のお部屋です。)
+                    </p>
+                    <ul>
+                        <li>お部屋の広さ：16㎡（9畳～10畳）</li>
+                        <li>ベッドの広さ：シングル（200㎝×100㎝）×2</li>
+                        <li>室料：10.000円（税込）〜</li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="triple">トリプル・Triple room</h4>
+            <div class="roomtype-exp row">
+                <div class="exp-photo col-md-6">
+                    <img src="img.hotel/triple.jpg" alt=""> 
+                </div>
+                <div class="p-exp col-md-6">
+                    <p>広めのツインBタイプにソファベッドを1つご用意し、3名様でご宿泊いただけます。<br>ご年配の方やお子様連れのご家族、ご友人同士でごゆっくりおくつろぎください。
+                    </p>
+                    <ul>
+                        <li>お部屋の広さ：22～25㎡（14～16畳）</li>
+                        <li>ベッドの広さ：セミダブル（200㎝×120㎝）×2、ソファベッド（180㎝×80㎝）×1</li>
+                        <li>室料：16.200円（税込）～/3名1室</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="row">
+        <div class="footer-left col-md-6">
+            <h3>ホテル飯田</h3>
+            <h5>チェックイン15:00／チェックアウト11:00 
+                <br>〒390-0811　長野県松本市中央1丁目2-3
+                <br>E-mail：<a href="" class="email text-decoration-none ">hotel@iidaya.co.jp</a> 
+                <br> TEL.0263-32-0027
+                <br>FAX.0263-36-9223
+            </h5>
+        </div>      
+        <div class="footer-right col-md-6">
+            <h6>各種クレジットカード・電子マネーをご利用いただけます。</h6>
+            <button><a href="">オンライン予約
+                変更・キャンセル</a></button>
+        </div>
+        <div class="social-links col-12">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <p>Copyright Hotel Iidaya 2021</p>
+        </div>
+    </footer>     
+</body>
+</html>

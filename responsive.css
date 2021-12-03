@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1350px) {
+    .top-item {
+        padding-left: 25px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+    .navbar-nav {
+        padding-left: 10px;
+    }
+    .nav-link {
+        font-size: 0.8em;
+    }
+    .button-top {
+        font-size: 0.8em;
+    }
+    .top-item button {
+        padding: 0px,0px;
+    }
+    .tel h5 {
+        font-size: 1em;
+    }
+    .points-logo {
+        width: 50%;
+    }
+}

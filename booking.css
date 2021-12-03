@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+.lead { 
+   background-color: rgb(11, 153, 11);
+   height: initial;
+   padding-top: 5px;
+}
+.lead p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+.tel {
+    padding-left: 25px;
+}
+.top-items {
+    padding-top: 10px;
+}
+.card-title-icon {
+    width: 4%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.logo {
+    width: 18%;
+}
+.top-item {
+    padding-left: 170px;
+}
+.top-item button {
+    padding-bottom: 0px;
+}
+.top-item-english {
+    border: 1px solid #67917B;
+    background-color: #67917B;
+    font-size: 1.15rem;
+    padding: 6px 6px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+.top-item-english p {
+    color: white;
+}
+.top-item-reservation {
+    line-height: 1;
+    margin: 0 0 0 5px;
+    font-size: 17px;
+    padding: 6px 6px;
+    border: 1px solid #E99413;
+    background-color: #E99413;
+    font-size: 1.15rem;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+.reservation-p  {
+    border: 1px solid #E99413;
+    background-color: #E99413;
+}
+.reservation-p h5 {
+    color: white;
+}
+.top-item-reservation p {
+    color: white;
+}
+.collapse {
+    justify-content: flex-end;
+ }
+ .navbar-nav {
+     padding-left: 90px;
+}
+.nav-item {
+    border: 1px solid rgb(11, 153, 11);
+    background-color: rgb(11, 153, 11);
+    font-size: 1rem;
+    margin: 0px 5px;
+    border-radius: 5px;
+    text-align: center; 
+}
+.nav-item a {
+    color: white;
+}
+
+
+header {
+    padding-bottom: 10px;
+}
+
+.cards {
+    padding-top: 30px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+.tm-section {
+    padding: 20px 0px;
+}
+.form-reservation {
+    width: 100%;
+    text-align: center; 
+}
+.reservation-direct {
+    width: 100%;
+    text-align: center; 
+}
+.tm-bg-video {
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+.event {
+    border: 1px solid rgb(11, 153, 11);
+    background-color: rgb(11, 153, 11);
+}
+.event h5 {
+    color: white;
+    text-align: center;
+}
+.overlay {
+    margin-top: 20px;
+   
+}
+.soba {
+    padding-bottom: 0px;
+}
+.breakfast {
+    padding-bottom: 44px;
+}
+footer {
+    padding-top: 20px;
+    border: 1px solid #c5e6d5;
+    background-color: #bce4cf;
+}
+.footer-left {
+    padding-left: 25px;
+}
+.footer-left a {
+    color:rgb(11, 153, 11);;
+}
+.footer-right button {
+    border: 1px solid #E99413;
+    background-color: #E99413;
+ 
+    font-size: 1.15rem;
+    margin-bottom: 0;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 6px 30px;
+}
+.footer-right button a {
+    color: white;
+}
+.social-links {
+    text-align: center;
+}
+.social-links .bi:hover {
+    color:#ff9900;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color:  #67917B;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+    
