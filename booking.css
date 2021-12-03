@@ -134,8 +134,8 @@ footer {
     border: 1px solid #c5e6d5;
     background-color: #bce4cf;
 }
-.footer-left {
-    padding-left: 25px;
+.footer-left h3 {
+    padding-left: 22px;
 }
 .footer-left a {
     color:rgb(11, 153, 11);;
