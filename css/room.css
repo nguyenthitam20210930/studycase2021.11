@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .top-room {
-    background-image: url(img.hotel/room\ number.jpg);
+    background-image: url(../img.hotel/room\ number.jpg);
     height: 100px;
     background-position: -80rem -60rem;
     background-size: 301%;
